@@ -1,38 +1,84 @@
+.navbar-custom {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.carousel-item {
+    height: 100vh; /* Full height carousel */
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 .container-fixed {
     max-width: 1280px;
     margin: 0 auto;
     background-color: #373A3C;
+    font-family: Cabin, sans-serif;
 }
+
+/*navbar*/
 nav{
-    padding: 50px;
-  
+    padding: 150px;
+    max-width: 1280px;
 }
-.carousel-item{
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    background-size: cover;
+.navbar-brand{
+   
+    color: #FFFFFF !important;  
 }
+
+
 h5 {
     color: #FFFFFF;
     text-align: center;
 }
+/* configuración div donde van los iconos de "destacados"*/
+.icon{
+    background-color: #10ccf4;
+    height: 30px;
+    text-align: center;  
+}
+/*configuración iconos "destacados"*/
+i{
+    color: #FFFFFF;
+}
+/*configuración texto cards "destacados"*/
 p {
     color: #FFFFFF;
     text-align:left;
 }
+/*configuración interior cards "destacados"*/
 .card-body{
     background-color: #10ccf4;
-    color: #FFFFFF !important;
+
 }
+/* configuracion estructura correo*/
 .correo{
     padding-left: 100px;
     padding-right: 100px;
     color: #FFFFFF;
 }
+/* colores boton correo*/
+.btn{
+    background-color: #10ccf4 !important;
+    color: #FFFFFF !important;
+}
 
+/* estructura y colores del footer*/
 footer{
     background-color: #10ccf4;
     color: #FFFFFF !important;
     padding: 20px;
+    font-size: 20px;
+}
+/* organización y alineación de elementos del footer*/
+.flex-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 250px;
+    padding-right: 250px;
 }
