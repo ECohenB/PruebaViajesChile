@@ -2,10 +2,16 @@
     max-width: 1280px;
     margin: 0 auto;
     background-color: #373A3C;
+    font-family: Cabin, sans-serif;
 }
+div { outline: 1px solid red !important; }
+
 nav{
-    padding: 50px;
-  
+    padding: 200px;
+}
+.navbar-brand{
+    margin: 10px;
+    color: #FFFFFF !important; 
 }
 .carousel-item{
     height: 100vh;
