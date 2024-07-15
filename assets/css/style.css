@@ -7,11 +7,13 @@
 div { outline: 1px solid red !important; }
 
 nav{
-    padding: 200px;
+    padding: 150px;
+    margin-top: 40px;
 }
 .navbar-brand{
-    margin: 10px;
-    color: #FFFFFF !important; 
+   
+    color: #FFFFFF !important;
+    
 }
 .carousel-item{
     height: 100vh;
@@ -22,6 +24,15 @@ nav{
 h5 {
     color: #FFFFFF;
     text-align: center;
+}
+.icon{
+    background-color: #10ccf4;
+    height: 30px;
+    text-align: center;
+   
+}
+i{
+    color: #FFFFFF;
 }
 p {
     color: #FFFFFF;
@@ -36,9 +47,18 @@ p {
     padding-right: 100px;
     color: #FFFFFF;
 }
-
+.btn{
+    background-color: #10ccf4 !important;
+    color: #FFFFFF !important;
+   
+}
 footer{
     background-color: #10ccf4;
     color: #FFFFFF !important;
     padding: 20px;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  
 }
